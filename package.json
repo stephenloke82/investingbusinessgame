@@ -1,0 +1,22 @@
+{
+  "name": "investing-business-game",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Wealth Path: an educational life-sim about careers, business and low-cost index investing.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "playthrough": "vitest run tests/playthrough.test.ts",
+    "e2e": "node scripts/e2e.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
